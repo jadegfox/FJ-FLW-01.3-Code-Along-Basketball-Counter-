@@ -13,8 +13,8 @@ let reset = document.querySelector(".reset");
 
 //Code Along, Part 1
 // task 1 & 2: Declare HTML element variables for Team 1 and Team 2 names using querySelector. Check out the code in the HTML to find the class names.
-let team1Name = document.querySelector(".Team1Name");
-let team2Name = document.querySelector(".Team2Name");
+let team1Name = document.querySelector(".team1Name");
+let team2Name = document.querySelector(".team2Name");
 
 
 
@@ -32,21 +32,8 @@ let freeThrow = 1;
 
 //Code Along, Part 2
 // task 5: Update Team 1 and Team 2 names using .innerHTML. Remember: You do not write let again!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ team1Name.innerHTML = "\"I don't really watch basetball\"";
+ team2Name.innerHTML = "\"I really watch basetball\"";
 
 
 
